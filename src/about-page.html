@@ -1,1 +1,9 @@
-<h1>The about page.</h1>
+<import from="./modal-basic"></import>
+<modal-basic
+  id="feedback-modal"
+  is-open.two-way="instanceModalOpen"
+  title="Send Feedback"
+>
+  <!-- Modal content -->
+  <div au-slot="test" class="px-5 py-4">test 123</div>
+</modal-basic>

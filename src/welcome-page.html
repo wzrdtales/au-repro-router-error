@@ -1,1 +1,10 @@
+<import from="./modal-basic"></import>
 <h1>${message}</h1>
+<modal-basic
+  id="feedback-modal"
+  is-open.two-way="instanceModalOpen"
+  title="Send Feedback"
+>
+  <!-- Modal content -->
+  <div au-slot="test" class="px-5 py-4">${$host.isOpen}</div>
+</modal-basic>

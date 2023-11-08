@@ -6,7 +6,10 @@ settings:
 
 dependencies:
   '@aurelia/router':
-    specifier: latest
+    specifier: 2.0.0-beta.8
+    version: 2.0.0-beta.8
+  '@aurelia/router-lite':
+    specifier: 2.0.0-beta.8
     version: 2.0.0-beta.8
   aurelia:
     specifier: latest
@@ -153,6 +156,19 @@ packages:
   /@aurelia/route-recognizer@2.0.0-beta.8:
     resolution: {integrity: sha512-okemWZKD4EIZGoEdsTt/k1dZuwGklClw5TrSSjEgXdnGm32OgImTy4vENBmZegM+C5sgsK2/q7JCspZEWSMENg==}
     engines: {node: '>=14.17.0'}
+    dev: false
+
+  /@aurelia/router-lite@2.0.0-beta.8:
+    resolution: {integrity: sha512-FzY1Dnm4eCAeXew/wqdeUHREcTI5sawHqF9Qx5Z5nKzBK6E5q6YxyRzRrY9OZ1vCVyqrd+SEijqgo+5/oCS/JQ==}
+    engines: {node: '>=14.17.0'}
+    dependencies:
+      '@aurelia/kernel': 2.0.0-beta.8
+      '@aurelia/metadata': 2.0.0-beta.8
+      '@aurelia/platform': 2.0.0-beta.8
+      '@aurelia/platform-browser': 2.0.0-beta.8
+      '@aurelia/route-recognizer': 2.0.0-beta.8
+      '@aurelia/runtime': 2.0.0-beta.8
+      '@aurelia/runtime-html': 2.0.0-beta.8
     dev: false
 
   /@aurelia/router@2.0.0-beta.8:
